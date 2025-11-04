@@ -44,3 +44,69 @@ header{
     border-radius: 40px;
     color: #000;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px 0px;
+    align-items: center;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 568px;
+}
+
+.content-main span{
+    display: flex;
+    align-self: self-start;
+    gap: 8px;
+    font-family: var(--font-family-alexandria);
+    padding: 10px 12px;
+    border: 1px solid var(--color-gray2);
+    border-radius: 24px;
+    color: var(--color-green);
+    font-size: var(--font-size-text2);
+}
+
+h1{
+    color: var(--color-white);
+    width: 521px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title1);
+}
+
+.content-main p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+    font-family: var(--font-family-alexandria);
+    align-items: center;
+}
+
+.btn-green{
+    color: #000;
+    background-color: var(--color-green);
+    border-radius: 40px;
+    padding: 14px 24px;
+    font-size: var(--font-size-button);
+}
+
+.btn-secondary{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 14px 24px;
+    color: var(--color-white);
+    font-size: var(--font-size-button);
+    border: 1.5px solid var(--color-gray2);
+    border-radius: 40px;
+}
