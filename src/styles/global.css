@@ -3,10 +3,11 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 :root{
-    /*--------cores -----------*/
 
     --color-green:#9DFF3A;
     --color-white:#E5E5E5;
@@ -14,8 +15,6 @@
     --color-gray2:#4D4D4D;
     --color-gray3:#2E2E2E;
     --color-gray4:#0F0F0F;
-
-    /*-------- fontes ---------*/
 
     --font-size-title1:64px;
     --font-size-title2:48px;
@@ -27,5 +26,5 @@
     --font-size-caption:12px;
 
     --font-family-alexandria:"Alexandria", sans-serif;
-
+    --font-family-inter:"Inter", sans-serif;
 }
