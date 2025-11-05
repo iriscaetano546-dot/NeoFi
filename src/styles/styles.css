@@ -1,7 +1,7 @@
 @import url("./global.css");
 
 body{
-    background-color: var(--color-gray4);
+    background-color:#000;
 }
 
 header{
