@@ -428,7 +428,7 @@ h1 {
 }
 
 
-.contatiner-revolutionary span{
+.contatiner-revolutionary span {
     color: var(--color-green);
     padding: 12px 20px;
     font-family: var(--font-family-alexandria);
@@ -438,7 +438,7 @@ h1 {
     width: 137px;
 }
 
-.contatiner-revolutionary h2{
+.contatiner-revolutionary h2 {
     color: var(--color-white);
     font-size: var(--font-size-title2);
     font-weight: 400;
@@ -448,20 +448,99 @@ h1 {
     text-transform: capitalize;
 }
 
-.contatiner-revolutionary p{
+.contatiner-revolutionary p {
     font-size: var(--font-size-button);
     color: var(--color-gray1);
     font-family: var(--font-family-inter);
     width: 644px;
 }
 
-.contatiner-revolutionary a{
+.contatiner-revolutionary a {
     background-color: var(--color-green);
     padding: 14px 22px;
-    color:#000;
+    color: #000;
     font-family: var(--font-family-alexandria);
     font-size: var(--font-size-button);
 }
 
+footer {
+    display: flex;
+    gap: 126px;
+    padding: 40px 0px;
+    justify-content: center;
+}
 
+.container-navigation-footer {
+    display: flex;
+    gap: 92px;
+    align-items: flex-start;
 
+}
+
+.footer-navigation-item {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.footer-navigation-item h2{
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+}
+
+.navigation-item ul{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.navigation-item ul li a{
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+}
+
+.footer-updates{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer-updates h2{
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    width: 198px;
+}
+
+form{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-gray1);
+    padding-bottom: 16px;
+}
+
+form input{
+    padding: 12px 5px;
+    background-color:transparent;
+    color: var(--color-white);
+    outline: none;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-green);
+    border-radius: 100%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+form button:hover{
+    background-color: #008e00;
+}
